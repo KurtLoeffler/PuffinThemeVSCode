@@ -1,0 +1,33 @@
+{
+	"name": "puffin-theme",
+	"displayName": "Puffin Theme",
+	"description": "Puffin theme for Visual Studio Code",
+	"version": "1.0.6",
+	"publisher": "keen",
+	"engines": {
+		"vscode": "*"
+	},
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"homepage": "https://github.com/KurtLoeffler/PuffinThemeVSCode",
+	"bugs": {
+		"url": "https://github.com/KurtLoeffler/PuffinThemeVSCode",
+		"email": "kurtloeffler@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KurtLoeffler/PuffinThemeVSCode.git"
+	},
+	"icon": "images/icon.png",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Puffin",
+				"uiTheme": "vs-dark",
+				"path": "./themes/color-theme.json"
+			}
+		]
+	}
+}

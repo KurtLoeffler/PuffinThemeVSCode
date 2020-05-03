@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "windows": {
+                "command": "lua"
+            },
+            "osx": {
+                "command": "lua"
+            },
+            "args": [
+                "build.lua"
+            ],
+            "presentation": {
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Build Then Hide",
+            "command": "${command:workbench.action.togglePanel}",
+            "dependsOn": [
+                "Build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
