@@ -2,6 +2,7 @@
 {
 	"type": "dark",
 	"colors": {
+		"foreground": "$base_4",
 		"dropdown.background": "$base_1",
 		"dropdown.listBackground": "$base_1",
 		"list.activeSelectionBackground": "$base_2",
@@ -63,6 +64,7 @@
 		"menu.foreground": "$base_4",
 		"pickerGroup.foreground": "$base_3",
 		"input.background": "$base_1",
+		"inputOption.activeBackground": "$base_1_2",
 		"editorWidget.background": "$base_1_1",
 		"debugToolBar.background": "$base_1_1",
 		"diffEditor.insertedTextBackground": "$green_340",
