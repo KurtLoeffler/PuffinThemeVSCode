@@ -2,7 +2,7 @@
 	"name": "puffin-theme",
 	"displayName": "Puffin Theme",
 	"description": "Puffin theme for Visual Studio Code",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"publisher": "keen",
 	"engines": {
 		"vscode": "*"
