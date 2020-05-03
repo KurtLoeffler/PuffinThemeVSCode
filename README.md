@@ -1,9 +1,10 @@
 ## Puffin Theme
 
 ### Install
-press ctl/command + shift + p to launch the command palette then run
+press `ctrl/command + p` to launch the command palette then paste:
 ```
 ext install puffin-theme
 ```
+this will find the theme in the extensions tab.
 
 ![](images/screenshot1.png)
