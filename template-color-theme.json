@@ -195,7 +195,6 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation",
 				"keyword.operator"
 			],
 			"settings": {
