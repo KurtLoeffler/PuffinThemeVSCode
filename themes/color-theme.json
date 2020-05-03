@@ -115,8 +115,7 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6b6264",
-				"fontStyle": "bold"
+				"foreground": "#6b6264"
 			}
 		},
 		{
@@ -178,8 +177,7 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#d65676",
-				"fontStyle": "bold"
+				"foreground": "#d65676"
 			}
 		},
 		{
@@ -190,8 +188,7 @@
 				"punctuation.separator",
 			],
 			"settings": {
-				"foreground": "#918686",
-				"fontStyle": "bold"
+				"foreground": "#918686"
 			}
 		},
 		{
