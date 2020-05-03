@@ -31,13 +31,12 @@ do
 	f:close()
 end
 
-local outputContent = content
 for _, value in ipairs(colors) do
-	outputContent, count = string.gsub(outputContent, "%$"..value[1], value[2])
+	content = string.gsub(content, "%$"..value[1], value[2])
 end
 
 do
 	local f = io.open("themes/color-theme.json", "w")
-	f:write(outputContent)
+	f:write(content)
 	f:close()
 end
