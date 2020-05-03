@@ -20,6 +20,7 @@ local colors = {
 	{"green_4", "#e1e897"},
 	{"blue_2", "#243b4e"},
 	{"blue_3", "#4d95b1"},
+	{"blue_4", "#c6f6ef"},
 }
 
 local content
