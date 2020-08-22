@@ -198,7 +198,7 @@
 			"name": "Variable",
 			"scope": [
 				"variable",
-				"entity.name"
+				"entity.name.variable"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -241,7 +241,7 @@
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "$green_3_2",
+				"foreground": "$blue_3_2",
 			}
 		},
 		{
@@ -249,7 +249,7 @@
 			"scope": [
 				"entity.name.type",
 				"entity.name.class",
-				"entity.name.namespace",
+				//"entity.name.namespace",
 				"entity.name.scope-resolution",
 			],
 			"settings": {
@@ -266,6 +266,7 @@
 		{
 			"name": "Function name",
 			"scope": [
+				"support.function.any-method",
 				"entity.name.function",
 			],
 			"settings": {
