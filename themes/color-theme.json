@@ -194,6 +194,7 @@
 				"foreground": "#eee0c4"
 			}
 		},
+		/*
 		{
 			"name": "Variable",
 			"scope": [
@@ -205,6 +206,7 @@
 				"foreground": "#ebebe1"
 			}
 		},
+		*/
 		{
 			"name": "Keyword",
 			"scope": [

@@ -194,6 +194,7 @@
 				"foreground": "$beige_4"
 			}
 		},
+		/*
 		{
 			"name": "Variable",
 			"scope": [
@@ -205,6 +206,7 @@
 				"foreground": "$base_4"
 			}
 		},
+		*/
 		{
 			"name": "Keyword",
 			"scope": [
