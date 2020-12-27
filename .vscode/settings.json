@@ -1,8 +1,9 @@
 {
-    "Lua.diagnostics.disable": [
-        "undefined-global",
-        "lowercase-global",
-        "ambiguity-1"
+    "[Lua.diagnostics.disable]": [],
+    "Lua.diagnostics.globals": [
+        "love"
     ],
-    //"Lua.diagnostics.enable": false
+    "files.exclude": {
+        //"**/somefolder": true
+    }
 }
